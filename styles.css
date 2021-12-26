@@ -1,0 +1,64 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Amiri', serif;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80px;
+}
+
+.rbn {
+    height: 25px;
+}
+.logo {
+    height: 60px;
+}
+.item {
+    height: 320px;
+    margin-right: 100px;
+}
+.hero {
+    height: 700px;
+    display: flex;
+    padding: 0px 100px;
+    justify-content: center;
+    align-items: center;
+}
+.footer {
+    background-color: rgba(252, 142, 230, 0.536);
+    display: flex;
+    height: 50px;
+    align-items: center;
+    justify-content: space-evenly;
+    
+    
+}
+.x {
+    color: black;
+}
+a {
+    text-decoration: none;
+    color: white;
+}
+h3 {
+    color: rgb(98, 216, 255);
+}
+.h:hover {
+    color: rgb(98, 216, 255);
+}
+img:hover {
+    cursor: pointer;
+}
+span:hover {
+    color: wheat;
+    cursor: pointer;
+}
+
