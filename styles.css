@@ -62,6 +62,10 @@ h3 {
 }
 .h:hover {
     color: rgb(98, 216, 255);
+    
+}
+.cartnum:hover {
+    color: rgb(48, 48, 48);
 }
 img:hover {
     cursor: pointer;
@@ -90,6 +94,7 @@ span:hover {
 }
 
 
+
 @media (max-width: 420px) {
     .hero {
         flex-direction: column;
@@ -112,6 +117,20 @@ span:hover {
         display: grid;
         place-content: center;
         margin-bottom: 50px;
+    }
+    html, body {
+        overflow-x: hidden;
+      }
+    body {
+        position: relative
+      }
+
+    .header {
+        padding: 0 10px 0 10px;
+
+    }
+    .rbn {
+        height: 20px;
     }
 }
 
